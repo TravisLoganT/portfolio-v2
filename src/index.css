@@ -1,4 +1,44 @@
-body {
-    background: black;
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg : #1f1f38;
+    --color-bg-variance : #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variance: #4db5ff66;
+    --color-white: #fff;
+    --color-light: #eee;
+
+    /* assign width for all elements that have containers */
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+/* ensure smooth scrolling accross website */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/bg-texture.png);
+}
+
+/* do not display the scrollbar */
+::-webkit-scrollbar {
+    display: none;
 }
