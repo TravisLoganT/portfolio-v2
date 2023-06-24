@@ -47,7 +47,7 @@ const About = () => {
 
           {/* professtional summary infomration */}
           <p>
-          cvqgcvqgycvqgwvc qgicvgqi cvqgiycv gqiwvcgiqwvcg vduh cuavc uq vgqwvc viu vgsuvc uiv cqi fvqi qwwc vgavc gqvcg qvcy qgq v
+          Passionate and diligent Full Stack Software Engineer with over 5 years of experience designing, developing, and maintaining web applications and services. Proficient in various modern programming languages, frameworks, and databases, including Python, Java, NodeJS, Django, React, MongoDB, and MySQL. I am known for excellent problem-solving skills and a solid user-focused approach, resulting in software solutions that meet business needs while providing superior user experiences. I am committed to continuous learning and staying up-to-date with industry trends and technologies.
           </p>
 
           {/* contact me button */}
