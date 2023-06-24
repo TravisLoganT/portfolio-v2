@@ -1,6 +1,5 @@
 import React from 'react'
 import './Nav.css'
-import {FaHome} from 'react-icons/fa'
 import {BiSolidHome, BiSolidUser, BiSolidBook, BiSolidMessageRounded} from 'react-icons/bi'
 import {MdComputer} from 'react-icons/md'
 import { useState } from 'react'
