@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/Travis2.png'
+import ME from '../../assets/Travis2.JPG'
 import {BiAward} from 'react-icons/bi'
 import {FaUsers} from 'react-icons/fa'
 import {BsFolderFill} from 'react-icons/bs'
@@ -13,12 +13,14 @@ const About = () => {
 
       <div className='container about__container'>
 
+        {/* about me introduction */}
         <div className='about__me'>
           <div className='about__me-image'>
             <img src={ME} alt="About Me Profile Picture" />
           </div>
         </div>
 
+        {/* container to display the cards and summary */}
         <div className='about__content'>
           <div className='about__cards'>
             {/* card 1 */}
@@ -41,16 +43,17 @@ const About = () => {
               <h5>Projects</h5>
               <small>30+ projects</small>
             </article>
-
           </div>
 
-        </div>
-
-        <p>
+          {/* professtional summary infomration */}
+          <p>
           cvqgcvqgycvqgwvc qgicvgqi cvqgiycv gqiwvcgiqwvcg vduh cuavc uq vgqwvc viu vgsuvc uiv cqi fvqi qwwc vgavc gqvcg qvcy qgq v
-        </p>
+          </p>
 
-        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          {/* contact me button */}
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+
+        </div>
       </div>
     </section>
   )
