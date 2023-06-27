@@ -1,6 +1,6 @@
 /* styling for the overall nav placed on the screen */
 nav {
-    background: rgba(0, 0, 0, 0.3);
+    background: #5E503F;
     width: max-content;
     display: block;
     padding: 0/7rem, 1.7rem;
@@ -27,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-    background: rgba(0, 0, 0, 0.5)
+    background: #22333B
 }
 
 nav a.active {
