@@ -1,10 +1,11 @@
 import React from 'react'
-import {BsLinkedin, BsGithub, BsInstagram} from 'react-icons/bs'
-import {BiLogoGmail, BiLogoFacebookSquare} from 'react-icons/bi'
+import {BsLinkedin, BsGithub, } from 'react-icons/bs'
+import { BiLogoGmail, BiLogoDevTo } from 'react-icons/bi'
+import { SiLeetcode } from 'react-icons/si'
 
-const HeaderSocials = () => {
+const HeaderSocialsPro = () => {
   return (
-    <div className="header__socials">
+    <div className="header__socials-pro">
         {/* LinkedIn */}
         <a href="https://www.linkedin.com/in/travislogant/" rel="noreferrer" target="_blank">
             <BsLinkedin />
@@ -20,17 +21,17 @@ const HeaderSocials = () => {
             <BiLogoGmail />
         </a>
 
-        {/* facebook */}
-        <a href="https://www.facebook.com/profile.php?id=100006278568312" rel="noreferrer" target="_blank">
-            <BiLogoFacebookSquare />
+        {/* LeetCode */}
+        <a href="https://leetcode.com/TravisLoganT/" rel="noreferrer" target="_blank">
+            <SiLeetcode />
         </a>
         
-        {/* Instagram */}
-        <a href="https://www.instagram.com/travislogant/" rel="noreferrer" target="_blank">
-            <BsInstagram />
+        {/* Dev.to */}
+        <a href="https://dev.to/travistlogant" rel="noreferrer" target="_blank">
+            <BiLogoDevTo />
         </a>
     </div>
   )
 }
 
-export default HeaderSocials
+export default HeaderSocialsPro
