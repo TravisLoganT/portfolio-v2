@@ -27,21 +27,21 @@ const About = () => {
             <article className='about__card'>
               <BiAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ year working experience</small>
+              <small>3+ year working experience</small>
             </article>
 
             {/* card 2 */}
             <article className='about__card'>
               <FaUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>500+ Worldwide</small>
+              <small>100+ Worldwide</small>
             </article>
 
             {/* card 3 */}
             <article className='about__card'>
               <BsFolderFill className='about__icon'/>
               <h5>Projects</h5>
-              <small>30+ projects</small>
+              <small>20+ projects</small>
             </article>
           </div>
 
