@@ -18,12 +18,20 @@
 }
 
 .portfolio__item-image {
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem
+    margin-bottom: .5rem;
+}
+
+.portfolio__item h4 {
+    margin-bottom: 1.5rem;
 }
 
 .portfolio__item-cta {
