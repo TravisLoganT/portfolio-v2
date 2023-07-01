@@ -16,11 +16,11 @@ const Testimonials = () => {
         <article className='testimonial'>
           <div className="client__avatar">
             <img src={AVATAR1} alt="Kamran"></img>
-            <h5 className='client__name'>Kamran</h5>
+          </div>
+          <h5 className='client__name'>Kamran</h5>
             <small className='client__review'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
             </small>
-          </div>
         </article>
       </div>
     </section>
