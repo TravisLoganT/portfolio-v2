@@ -19,6 +19,9 @@
     --color-light: #eee;
 
     --transition: all 400ms ease;
+    --swiper-navigation-color: var(--color-primary);
+    --swiper-pagination-color: var(--color-primary);
+    --swiper-pagination-bullet-inactive-color: var(--color-primary-variance);
 
     /* assign width for all elements that have containers */
     --container-width-lg: 75%;
