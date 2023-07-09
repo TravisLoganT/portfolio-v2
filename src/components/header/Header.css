@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 3rem;
+    padding-top: 2rem;
     overflow: clip;
 }
 
@@ -73,7 +73,7 @@ header {
 /* ---------- MEDIA QUERIES (MEDIUM DEVICES) ---------- */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 95vh;
     }
 }
 
@@ -83,7 +83,19 @@ header {
         height: 100vh;
     }
 
-    .header__socials-pro, .header__socials-soc, .scroll__down {
+    .me {
+        background: linear-gradient(var(--color-primary), transparent);
+        width: 20rem;
+        height: 28rem;
+        position: absolute;
+        left: calc(50% - 10rem);
+        margin-top: 4rem;
+        border-radius: 12rem 12rem 0 0;
+        overflow: visible;
+        /* padding: 0rem 0rem 0rem 0rem; */
+    }
+
+     .scroll__down {
         display: none;
     }
 }
