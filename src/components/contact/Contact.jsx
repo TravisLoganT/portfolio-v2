@@ -3,7 +3,7 @@ import "./Contact.css";
 import { BiMailSend } from "react-icons/bi";
 import { BsMessenger, BsWhatsapp } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef() 
