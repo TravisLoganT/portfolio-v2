@@ -1,7 +1,7 @@
 /* styling for the overall nav placed on the screen */
 nav {
-    background: #5E503F;
-    width: max-content;
+    background: var(--color-bg);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     display: block;
     padding: 0/7rem, 1.7rem;
     z-index: 2;
@@ -27,10 +27,10 @@ nav a {
 }
 
 nav a:hover {
-    background: #22333B
+    background: var(--color-primary);
 }
 
 nav a.active {
-    background: var(--color-bg);
-    color: var(--color-light)
+    background: var(--color-primary-variance);
+    color: var(--color-primary);
 }
