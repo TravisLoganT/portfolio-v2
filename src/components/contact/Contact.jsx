@@ -25,7 +25,10 @@ const Contact = () => {
         (error) => {
           console.log(error.text);
         }
-      );
+    );
+    form.current.reset();
+
+    window.alert('Your message has been sent!');
   };
   return (
     <section id="contact">
@@ -70,7 +73,7 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Your Name"
             required
           />
           <input type="text" name="email" placeholder="Your Email" required />
@@ -83,7 +86,9 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send a Message
           </button>
+          
         </form>
+        
       </div>
     </section>
   );

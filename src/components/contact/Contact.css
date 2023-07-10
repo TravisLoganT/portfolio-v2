@@ -52,7 +52,13 @@ textarea {
   border: 2px solid var(--color-primary-variance);
   resize: none;
   color: var(--color-white);
+
 }
+
+input::placeholder,
+  textarea::placeholder {
+    color: var(--color-white);
+  }
 
 /* ---------- MEDIA QUERIES (MEDIUM DEVICES) ---------- */
 @media screen and (max-width: 1024px) {
