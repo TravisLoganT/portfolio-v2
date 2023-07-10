@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import { BiMailSend } from "react-icons/bi";
-import { BsMessenger, BsWhatsapp } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef() 
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -38,7 +38,7 @@ const Contact = () => {
             <BiMailSend className="contact__option-icon" />
             <h4>Email</h4>
             <h5>TravisLoganT@gmail.com</h5>
-            <a href="mailto:TravisLoganT@gmail.com" target="_blank">
+            <a href="mailto:TravisLoganT@gmail.com" target="_blank" rel="noreferrer">
               Send a Mesage
             </a>
           </article>
@@ -48,7 +48,7 @@ const Contact = () => {
             <FaLinkedinIn className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <h5>Travis Logan</h5>
-            <a href="https://www.linkedin.com/in/travislogant/" target="_blank">
+            <a href="https://www.linkedin.com/in/travislogant/" target="_blank" rel="noreferrer">
               Send a Mesage
             </a>
           </article>
@@ -60,7 +60,7 @@ const Contact = () => {
             <h5>Travis Logan</h5>
             <a
               href="https://api.whatsapp.com/send?phone=447877667860"
-              target="_blank">
+              target="_blank" rel="noreferrer">
               Send a Message
             </a>
           </article>
