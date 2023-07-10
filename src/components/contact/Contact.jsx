@@ -49,7 +49,7 @@ const Contact = () => {
             <h4>LinkedIn</h4>
             <h5>Travis Logan</h5>
             <a href="https://www.linkedin.com/in/travislogant/" target="_blank" rel="noreferrer">
-              Send a Mesage
+              Send a Message
             </a>
           </article>
 
