@@ -10,6 +10,10 @@ header {
   position: relative;
 }
 
+.header__container h5 {
+  font-size: 1.2rem;
+}
+
 /* ---------- CTA ---------- */
 .cta {
   margin-top: 1rem;
