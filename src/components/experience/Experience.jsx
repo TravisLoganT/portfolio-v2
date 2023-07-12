@@ -118,7 +118,6 @@ const Experience = () => {
                 <small className="text-light">Experiened</small>
               </div>
             </article>
-            
           </div>
         </div>
 
@@ -243,8 +242,6 @@ const Experience = () => {
             </article>
           </div>
         </div>
-
-
       </div>
     </section>
   );

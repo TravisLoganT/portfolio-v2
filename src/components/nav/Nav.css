@@ -1,36 +1,35 @@
 /* styling for the overall nav placed on the screen */
 nav {
-    background: var(--color-bg);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    display: block;
-    padding: 0/7rem, 1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+  background: var(--color-bg);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: block;
+  padding: 0/7rem, 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
 }
 
 /* styling for icons placed on the nav */
 nav a {
-    background: transparent;
-    padding: 0.8rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--color-light);
-    font-size: 1.1rem;
-
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
 }
 
 nav a:hover {
-    background: var(--color-primary);
+  background: var(--color-primary);
 }
 
 nav a.active {
-    background: var(--color-primary-variance);
-    color: var(--color-primary);
+  background: var(--color-primary-variance);
+  color: var(--color-primary);
 }

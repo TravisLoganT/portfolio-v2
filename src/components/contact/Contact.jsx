@@ -25,10 +25,10 @@ const Contact = () => {
         (error) => {
           console.log(error.text);
         }
-    );
+      );
     form.current.reset();
 
-    window.alert('Your message has been sent!');
+    window.alert("Your message has been sent!");
   };
   return (
     <section id="contact">
@@ -41,7 +41,10 @@ const Contact = () => {
             <BiMailSend className="contact__option-icon" />
             <h4>Email</h4>
             <h5>TravisLoganT@gmail.com</h5>
-            <a href="mailto:TravisLoganT@gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:TravisLoganT@gmail.com"
+              target="_blank"
+              rel="noreferrer">
               Send a Mesage
             </a>
           </article>
@@ -51,7 +54,10 @@ const Contact = () => {
             <FaLinkedinIn className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <h5>Travis Logan</h5>
-            <a href="https://www.linkedin.com/in/travislogant/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/travislogant/"
+              target="_blank"
+              rel="noreferrer">
               Send a Message
             </a>
           </article>
@@ -63,19 +69,15 @@ const Contact = () => {
             <h5>Travis Logan</h5>
             <a
               href="https://api.whatsapp.com/send?phone=447877667860"
-              target="_blank" rel="noreferrer">
+              target="_blank"
+              rel="noreferrer">
               Send a Message
             </a>
           </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            required
-          />
+          <input type="text" name="name" placeholder="Your Name" required />
           <input type="text" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
@@ -86,9 +88,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send a Message
           </button>
-          
         </form>
-        
       </div>
     </section>
   );
