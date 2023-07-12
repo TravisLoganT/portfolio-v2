@@ -10,7 +10,7 @@ This portfolio website aims to tell my story, showcase my work, and provide a pl
 - **About Me:** Get to know my journey, my skills, and what drives me in the world of web development.
 - **Portfolio:** Dive into the details of the projects I've completed, the technologies used, and the problems solved.
 - **Resume:** A concise overview of my professional experiences, education, skills, and certifications.
-- **Blog:** Explore my thoughts, insights, and knowledge in web development through my articles and tutorials.
+- **Testimonials:** Hear from the talented people I've had the pleasure to work with.
 - **Contact:** Interested in connecting? Find ways to get in touch with me here.
 
 ## Key Features
@@ -22,14 +22,16 @@ This portfolio website aims to tell my story, showcase my work, and provide a pl
 - **Personal Branding:** Consistent and distinctive personal branding throughout the website, to leave a lasting impression.
 
 ## Website Preview
-![stock-website](https://github.com/TravisTLogan/PortfolioV2/assets/91529655/bcb4fb9f-ae79-46eb-ac2e-57c3ec822639)
+<img width="1709" alt="Screenshot 2023-07-12 at 21 06 34" src="https://github.com/TravisTLogan/portfolio-v2/assets/91529655/3cadb892-a6b3-431f-9bce-0bc0b756bf29">
+)
 
 
 ## Experience the Journey
 
 See how my web development skills have grown by comparing this portfolio with my initial portfolio built with pure HTML, CSS, and JS. Find it here.
 <br>
-- [Personal Portfolio V1](https://github.com/TravisTLogan/travistlogan.github.io)
+[Personal Portfolio V1 Website](https://portfolio-v1-travistlogan.vercel.app/)
+- [Personal Portfolio V1 Github](https://github.com/TravisTLogan/travistlogan.github.io)
 
 ## Local Setup
 
