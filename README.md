@@ -30,7 +30,7 @@ This portfolio website aims to tell my story, showcase my work, and provide a pl
 
 See how my web development skills have grown by comparing this portfolio with my initial portfolio built with pure HTML, CSS, and JS. Find it here.
 <br>
-[Personal Portfolio V1 Website](https://portfolio-v1-travistlogan.vercel.app/)
+- [Personal Portfolio V1 Website](https://portfolio-v1-travistlogan.vercel.app/)
 - [Personal Portfolio V1 Github](https://github.com/TravisTLogan/travistlogan.github.io)
 
 ## Local Setup
