@@ -1,6 +1,6 @@
 import React from "react";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { BiLogoGmail, BiLogoDevTo } from "react-icons/bi";
+import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { BiLogoGmail, } from "react-icons/bi";
 import { SiLeetcode } from "react-icons/si";
 
 const HeaderSocialsPro = () => {
@@ -16,7 +16,7 @@ const HeaderSocialsPro = () => {
 
       {/* GitHub */}
       <a
-        href="https://github.com/TravisTLogan"
+        href="https://github.com/TravisLoganT"
         rel="noreferrer"
         target="_blank">
         <BsGithub />
@@ -27,17 +27,12 @@ const HeaderSocialsPro = () => {
         <BiLogoGmail />
       </a>
 
-      {/* LeetCode */}
-      <a
-        href="https://leetcode.com/TravisLoganT/"
+       {/* Instagram */}
+       <a
+        href="https://www.instagram.com/travislogant/"
         rel="noreferrer"
         target="_blank">
-        <SiLeetcode />
-      </a>
-
-      {/* Dev.to */}
-      <a href="https://dev.to/travistlogant" rel="noreferrer" target="_blank">
-        <BiLogoDevTo />
+        <BsInstagram />
       </a>
     </div>
   );
