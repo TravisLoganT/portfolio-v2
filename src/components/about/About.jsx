@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/Travis2.jpg";
+import ME from "../../assets/Travis.jpg";
 import { BiAward } from "react-icons/bi";
 import { FaUsers } from "react-icons/fa";
 import { BsFolderFill } from "react-icons/bs";
