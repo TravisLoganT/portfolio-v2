@@ -1,7 +1,6 @@
 header {
   height: 100vh;
   padding-top: 2rem;
-  overflow: clip;
 }
 
 .header__container {
@@ -29,28 +28,11 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 0;
-  bottom: 5rem;
-}
-
-.header__socials-pro::after {
-  content: "";
-  width: 1px;
-  height: 5rem;
-  background-color: var(--color-primary);
-}
-
-.header__socials-soc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-  position: absolute;
   right: 0;
   bottom: 5rem;
 }
 
-.header__socials-soc::after {
+.header__socials-pro::after {
   content: "";
   width: 1px;
   height: 5rem;
@@ -100,7 +82,6 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: visible;
-    /* padding: 0rem 0rem 0rem 0rem; */
   }
 
   .scroll__down {

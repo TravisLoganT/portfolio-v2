@@ -3,7 +3,6 @@ import "./Header.css";
 import CTA from "./CTA";
 import ME from "../../assets/Travis4.png";
 import HeaderSocialsPro from "./HeaderSocialsPro";
-import HeaderSocialsSoc from "./HeaderSocialsSoc";
 import { TypeAnimation } from "react-type-animation";
 
 const Header = () => {
@@ -47,7 +46,7 @@ const Header = () => {
         </h5>
         <CTA />
         <HeaderSocialsPro />
-        <HeaderSocialsSoc />
+        
 
         <div className="me">
           <img src={ME} alt="Travis Logan" />
